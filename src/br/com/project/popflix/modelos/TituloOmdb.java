@@ -1,4 +1,4 @@
 package br.com.project.popflix.modelos;
 
-public record TituloOmdb() {
+public record TituloOmdb(String title, String year, String runtime) {
 }
